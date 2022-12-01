@@ -1,0 +1,32 @@
+.page-header, .page-header-space {
+    height: 50px;
+}
+
+.page-header {
+    position: fixed;
+    top: 0mm;
+    right: 20px;
+    left: 0px;
+    width: 100%;
+    background: white;
+}
+
+.page {
+    page-break-after: always;
+}
+
+@page{
+    margin: 90mm
+}
+
+h1 {
+    font-size: 35px
+}
+
+#p0 {text-indent: 8em;}
+
+p {
+    margin-top: 10px;
+    margin-right: 150px;
+    margin-left: 274px;
+}
