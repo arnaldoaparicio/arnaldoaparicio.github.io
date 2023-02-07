@@ -23,11 +23,11 @@
 </style>
 
 
-Introduction
+<p><h1>Introduction</h1></p>
 
-## Instructions
+<p>Instructions</p>
 
-### Step 1: 'rails new'
+<p>### Step 1: 'rails new'</p>
 
 To start from scratch, generate a new rails app on your local machine. This is the configuration I am using for this walkthrough, making sure to set `postgres` as the database, to make the github actions more real-world and realistic. 
 
@@ -40,7 +40,7 @@ $ git add .
 $ git commit -m "initial commit"
 ```
 
-### Step 2: Ensure local and remote repositories are connected
+<p>### Step 2: Ensure local and remote repositories are connected</p>
 
 If you already have an existing repository on github, skip this step. Otherwise we will create a new repo.
 
@@ -61,7 +61,7 @@ $ git push -u origin main
 ```
 
 
-### Step 3.0 : Install `rspec-rails` 
+<p>### Step 3.0 : Install `rspec-rails`</p>
 
 For the purposes of this guide, you can auto-generate tests, but if you're trying to set up github actions on an existing rails project, you _likely_ already have tests, so skip this step.
 
@@ -72,7 +72,7 @@ $ bundle install
 $ rails generate rspec:install
 ```
 
-### Step 3.1 : Use 'rails generate scaffold' to generate tests 
+<p>### Step 3.1 : Use 'rails generate scaffold' to generate tests </p>
 
 
 ```
@@ -91,7 +91,7 @@ To trigger github actions, github will expect a yml file inside of `.github/work
 code .github/workflows/run_tests.yml
 ```
 
-### Step 5: Fill new yml file with instructions for github actions:
+<p>### Step 5: Fill new yml file with instructions for github actions:</p>
 
 ```yml
 # .github/workflows/run_spec.yml
@@ -137,7 +137,7 @@ jobs:
         bundle exec rspec spec
 ```
 
-# Step 6: Make sure your tests work locally
+<p># Step 6: Make sure your tests work locally</p>
 
 ```
 
@@ -146,12 +146,12 @@ $ rails db:migrate
 $ rspec
 ```
 
-## Step 7: Commit it and see if your tests work
+<p>## Step 7: Commit it and see if your tests work</p>
 
 Push your new `yml` file to Github, and check the `actions` tab on the repository to watch the action get run. For me, I'd head to http://github.com/arnaldoaparicio/github_actions_walkthrough/actions/
 
 
-## Step 8: Realize your tests don't work because `config/database.yml` needs to be updated
+<p>## Step 8: Realize your tests don't work because `config/database.yml` needs to be updated</p>
 
 The values in the `test` development block in `config/database.yml` need to include postgres user information to be used during the github Actions run. 
 
@@ -199,7 +199,7 @@ Finished in 0.58442 seconds (files took 0.72949 seconds to load)
 
 Congrats!
 
-## Conclusion
+<p>## Conclusion</p>
 
 Now, having read this guide, you know how to go from `rails new` in your terminal, to a successful github actions "run" than checks that all of your tests are passing.
 
