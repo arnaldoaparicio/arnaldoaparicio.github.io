@@ -10,9 +10,8 @@ Timeline: 2 weeks
 
 Technologies: Ruby, Rails, REST API, Heroku, HTML,Google OAuth2, Google Books API, PostgreSQL, NYTimes Books API
 
-<p>Links: <a href="https://github.com/Book-Club-Project/book_club_FE">App Repo</a>
- <a href="https://book-club-2022.fly.dev/">Deployed App</a>
- <a href="https://github.com/Book-Club-Project/book_club_BE">Server Repo</a>
+<p>Links: &nbsp; <a href="https://github.com/Book-Club-Project/book_club_FE">App Repo</a> &nbsp; &nbsp; <a href="https://book-club-2022.fly.dev/">Deployed App</a> &nbsp; &nbsp;
+ <a href="https://github.com/Book-Club-Project/book_club_BE">Server Repo</a> &nbsp; &nbsp; 
  <a href="https://bookclub-2022-be.fly.dev/api/v1/clubs">Deployed Server</a></p>
 
 Video demo for Turing Demo Comp
