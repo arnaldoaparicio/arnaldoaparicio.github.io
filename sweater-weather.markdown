@@ -1,57 +1,32 @@
-<head>
-    <link rel="stylesheet" href="style.css" />
-</head>
-
-<body>
-    <div class="page-header" style="text-align: left">
-        <h1 id="p0" style="font-family:'Courier New'"><a href="/">Arnaldo Aparicio</a>&ensp;&ensp;&ensp;&ensp;<a href="/blog.html">blog</a></h1>
-    </div>
-</body>
-<div class="page"> I'm a CSS noob and I'm glad you found this!</div>
-<br></br>
-<br></br>
-<br></br>
-
-<style>
-    div.a {
-        font-size: 45px;
-    }
-
-    div.b {
-        font-size: 22px;
-    }
-</style>
-
-<div class="a" style="font-family:'Courier New'"><p>Sweather Weather API</p></div>
-<div class="b" style="font-family:'Courier New'">
+<p>Sweather Weather API</p>
 <p>[Solo Project]</p>
 <p>Rails API backend with endpoints exposing data relating to current and forecasted weather at a specific destination</p>
 <p>Focus Areas: Fetch data from multiple external APIs, exposing API endpoints requiring an authentication token</p>
 <p>Timeline: 1 Week</p>
 <p>Technologies: Ruby, Rails, VCR (mocking tool), RSpec, MapQuest's Geocoding API, OpenWeather One Call API</p>
-<br></br>
+<br>
 <p>Links: <a href="https://github.com/arnaldoaparicio/sweather-weather">Server Repo</a>
  <a href="https://sweater-weather-aa.fly.dev/api/v1/forecast?location=denver,co">Deployed Server</a></p>
- <br></br>
+ <br>
 <p>API requests were sent using Postman</p>
-<br></br>
+<br>
 <p>Preview:</p>
-    <p>Get weather for a city</p>
+<p>Get weather for a city</p>
 
 <p><img src="https://i.imgur.com/CdSNrHY.png" width="1016" height="687"></p>
-<br></br>
-<br></br>
+<br>
+<br>
 <p>Get image background for a city</p>
 <p><img src="https://i.imgur.com/Uwz6RbO.png" width="1018" height="687"></p>
-<br></br>
-<br></br>
+<br>
+<br>
 <p>Register a new user</p>
 <p><img src="https://i.imgur.com/eFgOSl7.png" width="1013" height="763"></p>
-<br></br>
-<br></br>
+<br>
+<br>
 <p>Create a new user session</p>
 <p><img src="https://i.imgur.com/MZgbZhv.png" width="1015" height="765"></p>
-<br></br>
-<br></br>
-<p>Retrieve roadtrip info based on origin and destination</p></div>
+<br>
+<br>
+<p>Retrieve roadtrip info based on origin and destination</p>
 <p><img src="https://i.imgur.com/K39XI2p.png" width="1016" height="764"></p>
