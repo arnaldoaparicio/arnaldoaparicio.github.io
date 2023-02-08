@@ -22,7 +22,7 @@ Video demo for Turing Demo Comp
 ## Screenshots
 <br>
 # Book Club Home Page
-<p><img src="https://i.imgur.com/ur1L0yH.png" width="1005" height="684"></p>
+<p><img src="https://i.imgur.com/ur1L0yH.png" width="938" height="638"></p>
 <br>
 <br>
 # Book Club Login/Registration Page using Google OAuth2
