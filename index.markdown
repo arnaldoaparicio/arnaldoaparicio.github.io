@@ -21,6 +21,8 @@ When I'm not programming, I'm engaged in other activities such as:
 - Taking long walks and soaking in nature
 - Occasionally baking
 
+You can check out my [portfolio]({% link portfolio.markdown %}) to see my work.
+
 You can contact me on the following platforms: <a
                 href="https://www.linkedin.com/in/arnaldo-aparicio-b25913224/"><i style="font-size: 45px"
                     class="devicon-linkedin-plain colored"></i></a> <a href="https://github.com/arnaldoaparicio"><i
