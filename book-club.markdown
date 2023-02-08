@@ -26,19 +26,19 @@ Video demo for Turing Demo Comp
 <br>
 <br>
 # Book Club Login/Registration Page using Google OAuth2
-<p><img src="https://i.imgur.com/KciMHK7.png" width="1006" height="685"></p>
+<p><img src="https://i.imgur.com/KciMHK7.png" width="671" height="457"></p>
 <br>
 <br>
 # User Dashboard
-<p><img src="https://i.imgur.com/Kcv2hYU.png" width="1006" height="685"></p>
+<p><img src="https://i.imgur.com/Kcv2hYU.png" width="671" height="457"></p>
 <br>
 <br>
 # Book Show Page (City of Ember)
-<p><img src="https://i.imgur.com/eqeeaF3.png" width="1007" height="686"></p>
+<p><img src="https://i.imgur.com/eqeeaF3.png" width="672" height="457"></p>
 <br>
 # Create a new club for City of Ember
-<p><img src="https://i.imgur.com/W2F2MHA.png" width="1008" height="684"></p>
+<p><img src="https://i.imgur.com/W2F2MHA.png" width="672" height="456"></p>
 <br>
 <br>
 # Newly created club page
-<p><img src="https://i.imgur.com/SETqHpW.png" width="1006" height="683"></p>
+<p><img src="https://i.imgur.com/SETqHpW.png" width="671" height="456"></p>
