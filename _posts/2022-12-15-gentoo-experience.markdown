@@ -1,6 +1,5 @@
 ---
-layout: page
-title: First Pass with Gentoo
+layout: post
 permalink: /gentoo-experience/
 ---
 
