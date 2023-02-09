@@ -3,17 +3,17 @@ layout: page
 permalink: /flash-cards
 ---
 
-Flash Cards
+# Flash Cards
 
 [Group Project]
 
-A simulated flash card game where the user can see questions, make guesses, and see a final score at the end.
+_A simulated flash card game where the user can see questions, make guesses, and see a final score at the end._
 
-Focus Areas: OOP with Ruby, unit testing and TDD, learn to host code on GitHub and make pull requests
+Focus Areas: _OOP with Ruby, unit testing and TDD, learn to host code on GitHub and make pull requests_
 
-Timeline: 1 week
+Timeline: _1 week_
 
-Technologies: Ruby, RSpec
+Technologies: _Ruby, RSpec_
 
 Links: <a href="https://github.com/arnaldoaparicio/flash_cards">App Repo</a>
 <br>
