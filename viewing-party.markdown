@@ -1,13 +1,28 @@
 # Viewing Party
 
-[Paired Project]
+Viewing Party was a mod 3 paired project with learning outcomes around using third-party APIs.
 
-_A web application that allows the user to search for movies and create a viewing party for them and other users._
+My teammate and I built a web application that allows the user to search for movies and create a viewing party for them and other users.
 
-Focus Areas: _Consume APIs requiring authentication, exposing API endpoints using TDD, deploying to Heroku_
+## Focus Areas: 
 
-Timeline: _1 week_
+- Consume APIs requiring authentication
+- Expose API endpoints using TDD
+- Deploying to Heroku
 
-Technologies: _Ruby, Rails, HTML, RSpec, VCR, Heroku, The Movie DB API, PostgreSQL, fly.io_
+## Timeline
+1 week
 
-Links: &nbsp; <a href="https://github.com/arnaldoaparicio/viewing_party_lite">App Repo</a> &nbsp; <a href="https://viewing-party-aa.fly.dev/">Deployed App</a>
+## Technologies: 
+- Ruby
+- Rails 
+- PostgreSQL
+- RSpec
+- VCR
+- Heroku
+- The Movie DB API
+- fly.io
+
+## Links 
+- [App Repo](https://github.com/arnaldoaparicio/viewing_party_lite)
+- [Deployed App](https://viewing-party-aa.fly.dev/)
