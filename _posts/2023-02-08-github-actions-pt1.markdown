@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: post
+title: "GitHub Actions Walkthrough: Part 1"
 permalink: /github-actions-p1/
 ---
 
@@ -14,7 +15,7 @@ The steps below are _very_ detailed, but represents a fair bit of the digging th
 
 ### Step 1: 'rails new'
 
-To start from scratch, generate a new rails app on your local machine. This is the configuration I am using for this walkthrough, making sure to set `postgres` as the database, to make the github actions more real-world and realistic.
+To start from scratch, generate a new rails app on your local machine. This is the configuration I am using for this walkthrough, making sure to set `postgres` as the database, to make the GitHub Actions more real-world and realistic.
 
 {% highlight console %}
 $ rails _5.2.8.1_ new github_rails_ci -T -d="postgresql" --skip-spring --skip-turbolinks
@@ -129,11 +130,11 @@ $ rspec
 
 ### Step 7: Commit it and see if your tests work
 
-Push your new `yml` file to Github, and check the `actions` tab on the repository to watch the action get run. For me, I'd head to [http://github.com/arnaldoaparicio/github_actions_walkthrough/actions/](http://github.com/arnaldoaparicio/github_actions_walkthrough/actions/)
+Push your new `yml` file to GitHub, and check the `actions` tab on the repository to watch the action get run. For me, I'd head to [http://github.com/arnaldoaparicio/github_actions_walkthrough/actions/](http://github.com/arnaldoaparicio/github_actions_walkthrough/actions/)
 
 ### Step 8: Realize your tests don't work because `config/database.yml` needs to be updated
 
-The values in the `test` development block in `config/database.yml` need to include postgres user information to be used during the github Actions run.
+The values in the `test` development block in `config/database.yml` need to include postgres user information to be used during the GitHub Actions run.
 
 The values for `host`, `username`, and `password` should match what you have in `run_spec.yml`
 
@@ -161,7 +162,7 @@ index 7555321..908e314 100644
 +  password: postgres
 {% endhighlight %}
 
-Push this all to Github, check the `actions` tab output, and you should see a green check, and if you drill into the `build and run tests` dropdown/collapsible menu item, you'll see some output like:
+Push this all to GitHub, check the `actions` tab output, and you should see a green check, and if you drill into the `build and run tests` dropdown/collapsible menu item, you'll see some output like:
 
 {% highlight console %}
   13) /widgets DELETE /destroy destroys the requested widget
@@ -186,8 +187,8 @@ Sally forth and prosper.
 
 ### Additional links
 
-Here's some of the resources and articles I was consulting and checking with as I worked through this Github Actions learning:
+Here's some of the resources and articles I was consulting and checking with as I worked through this GitHub Actions learning:
 
-- [Building a Rails CI Pipline with Github Actions (boringrails.com)](https://boringrails.com/articles/building-a-rails-ci-pipeline-with-github-actions/)
+- [Building a Rails CI Pipline with GitHub Actions (boringrails.com)](https://boringrails.com/articles/building-a-rails-ci-pipeline-with-github-actions/)
 - [How to set up a Ruby on Rails CI workflow using GitHub Actions (dev.to)](https://dev.to/buildwithallan/how-to-set-up-a-ci-workflow-using-github-actions-4818)
 - [How to run Ruby on Rails tests on GitHub Actions using RSpec (docs.knapsackpro.com)](https://docs.knapsackpro.com/2021/how-to-run-ruby-on-rails-tests-on-github-actions-using-rspec)
