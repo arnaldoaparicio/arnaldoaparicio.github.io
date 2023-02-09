@@ -40,7 +40,7 @@ Book Club won Turing's Demo Comp, even when competing from a relatively weak pos
 
 ## Video demo for Turing Demo Comp
 
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/rKHB81AjWsI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rKHB81AjWsI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # Screenshots
 
