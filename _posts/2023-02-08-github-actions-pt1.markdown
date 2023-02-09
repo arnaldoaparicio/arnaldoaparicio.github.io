@@ -5,7 +5,7 @@ permalink: /github-actions-p1/
 
 ### Introduction
 
-A few weeks ago, for a [different project](link) which used a separate front-end and back-end, I wanted to use Github Actions to auto-run my test suite, whenever I pushed a commit.
+A few weeks ago, for a [different project](https://github.com/arnaldoaparicio/mugen_db_fe) which used a separate front-end and back-end, I wanted to use Github Actions to auto-run my test suite, whenever I pushed a commit.
 
 I was having issues getting the databases to talk to each other during the test run, but since I'd not used Github Actions much before, or any sort of ci/cd tooling, I wanted to get a 'minimally working' version of a Rails app on Github actions. 
 
