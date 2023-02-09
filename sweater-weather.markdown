@@ -1,17 +1,16 @@
-Sweather Weather API
+# Sweather Weather API
 
 [Solo Project]
 
-Context: Rails API backend with endpoints exposing data relating to current and forecasted weather at a specific destination
+Context: _Rails API backend with endpoints exposing data relating to current and forecasted weather at a specific destination_
 
-Focus Areas: Fetch data from multiple external APIs, exposing API endpoints requiring an authentication token
+Focus Areas: _Fetch data from multiple external APIs, exposing API endpoints requiring an authentication token_
 
-Timeline: 1 Week
+Timeline: _1 Week_
 
-Technologies: Ruby, Rails, VCR (mocking tool), RSpec, MapQuest's Geocoding API, OpenWeather One Call API
+Technologies: _Ruby, Rails, VCR (mocking tool), RSpec, MapQuest's Geocoding API, OpenWeather One Call API_
 
-Links: <a href="https://github.com/arnaldoaparicio/sweather-weather">Server Repo</a>
- <a href="https://sweater-weather-aa.fly.dev/api/v1/forecast?location=denver,co">Deployed Server</a>
+Links: &nbsp; <a href="https://github.com/arnaldoaparicio/sweather-weather">Server Repo</a> &nbsp; &nbsp; <a href="https://sweater-weather-aa.fly.dev/api/v1/forecast?location=denver,co">Deployed Server</a>
 <br>
 <br>
 <br>
@@ -19,24 +18,24 @@ API requests were sent using Postman
 
 <br>
 
-Preview:
+## Preview:
 
-Get weather for a city
+# Get weather for a city
 
 <img src="https://i.imgur.com/CdSNrHY.png" width="1016" height="687">
 <br>
 <br>
-Get image background for a city
+# Get image background for a city
 <img src="https://i.imgur.com/Uwz6RbO.png" width="1018" height="687">
 <br>
 <br>
-Register a new user
+# Register a new user
 <img src="https://i.imgur.com/eFgOSl7.png" width="1013" height="763">
 <br>
 <br>
-Create a new user session
+# Create a new user session
 <img src="https://i.imgur.com/MZgbZhv.png" width="1015" height="765">
 <br>
 <br>
-Retrieve roadtrip info based on origin and destination
+# Retrieve roadtrip info based on origin and destination
 <img src="https://i.imgur.com/K39XI2p.png" width="1016" height="764">
