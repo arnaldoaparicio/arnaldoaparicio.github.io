@@ -1,6 +1,7 @@
 ---
 layout: post
 permalink: /gentoo-experience/
+
 ---
 
 
