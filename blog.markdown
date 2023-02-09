@@ -1,7 +1,6 @@
 ---
 layout: page
 title: blog
-subtitle: Useful information and ramblings
 permalink: /blog/
 ---
 
