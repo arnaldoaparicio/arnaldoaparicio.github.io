@@ -14,5 +14,3 @@ When I'm not programming, I'm engaged in other activities such as:
 - Video Games (currently playing Cuphead)
 - Taking long walks and soaking in nature
 - Occasionally baking
-
-You can check out my [portfolio]({% link portfolio.markdown %}) to see my work.
