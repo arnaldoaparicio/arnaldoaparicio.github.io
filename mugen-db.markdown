@@ -6,14 +6,31 @@ layout: page
 
 # MUGEN DB
 
-[Solo Project]
+Mugen DB was an enjoyable solo project in which I guilt a game engine to support host resources and information for players of a game called [MUGEN](https://en.wikipedia.org/wiki/Mugen_(game_engine)).
 
-_A web app that hosts various links to resources for the game engine called [MUGEN](https://en.wikipedia.org/wiki/Mugen_(game_engine))._
+## Focus Areas
 
-Focus Areas: _Implement Amazon S3, upload images to Amazon S3 bucket, create user based submissions, display uploaded images_
+- Implement Amazon S3
+- upload images to Amazon S3 bucket
+- create user based submissions
+- display uploaded images
 
-Technologies: _Ruby, Rails, Amazon S3, HTML, PostgreSQL, fly.io_
+## Technologies
 
-Context: _This project was created to implement image uploading with Amazon S3 to an app that consists of a Rails API backend and a Rails frontend. Currently, only a registered admin is allowed to publish content._
+- Ruby/Rails
+- Amazon S3
+- PostgreSQL
+- fly.io
 
-Links: &nbsp; <a href="https://github.com/arnaldoaparicio/mugen_db_fe">App Repo</a> &nbsp; &nbsp;  <a href="https://mugen-db-aa.fly.dev/">Deployed App</a> &nbsp; &nbsp; <a href="https://github.com/arnaldoaparicio/mugen_db">Server Repo</a> &nbsp; &nbsp; <a href="https://mugen-db-be.fly.dev/api/v1/characters">Deployed Server</a>
+## Context
+
+This project was created to implement image uploading with Amazon S3 to an app that consists of a Rails API backend and a Rails frontend. 
+
+Currently, only a registered admin is allowed to publish content.
+
+## Links
+
+- [App Repo](https://github.com/arnaldoaparicio/mugen_db_fe)
+- [Deployed Ap](https://mugen-db-aa.fly.dev/)
+- [Server Repo](https://github.com/arnaldoaparicio/mugen_db)
+- [Deployed Serve](https://mugen-db-be.fly.dev/api/v1/characters)
