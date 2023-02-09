@@ -22,20 +22,20 @@ API requests were sent using Postman
 
 # Get weather for a city
 
-<img src="https://i.imgur.com/CdSNrHY.png" width="1016" height="687">
+<img src="https://i.imgur.com/CdSNrHY.png" width="565" height="382">
 <br>
 <br>
 # Get image background for a city
-<img src="https://i.imgur.com/Uwz6RbO.png" width="1018" height="687">
+<img src="https://i.imgur.com/Uwz6RbO.png" width="566" height="382">
 <br>
 <br>
 # Register a new user
-<img src="https://i.imgur.com/eFgOSl7.png" width="1013" height="763">
+<img src="https://i.imgur.com/eFgOSl7.png" width="563" height="424">
 <br>
 <br>
 # Create a new user session
-<img src="https://i.imgur.com/MZgbZhv.png" width="1015" height="765">
+<img src="https://i.imgur.com/MZgbZhv.png" width="564" height="425">
 <br>
 <br>
 # Retrieve roadtrip info based on origin and destination
-<img src="https://i.imgur.com/K39XI2p.png" width="1016" height="764">
+<img src="https://i.imgur.com/K39XI2p.png" width="565" height="425">
