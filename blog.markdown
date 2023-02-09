@@ -10,5 +10,5 @@ permalink: /blog/
 
 [Useful info about fly.io]({% link _posts/2023-01-03-things-fly.markdown %})
 
-[GitHub Actions Walkthrough for Ruby on Rails]({% link github-actions-pt1.markdown %})
+[GitHub Actions Walkthrough for Ruby on Rails]({% link _posts/2023-02-08-github-actions-pt1.markdown %})
 
