@@ -5,7 +5,7 @@ permalink: /flash-cards
 
 # Flash Cards
 
-Flash Cards was a group project in which we built a simulated flash card game where the user can see questions, make guesses, and see a final score at the end.
+Flash Cards was a solo project in which I built a simulated flash card game where the user can see questions, make guesses, and see a final score at the end.
 
 ## Focus Areas: 
 
