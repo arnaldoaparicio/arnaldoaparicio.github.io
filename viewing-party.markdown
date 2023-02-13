@@ -26,3 +26,12 @@ My teammate and I built a web application that allows the user to search for mov
 ## Links 
 - [App Repo](https://github.com/arnaldoaparicio/viewing_party_lite)
 - [Deployed App](https://viewing-party-aa.fly.dev/)
+
+## Home Page
+
+
+## Page Results after searching "Puss in Boots"
+
+## Page results showing the "Top Rated" movies in the United States
+
+
