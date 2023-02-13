@@ -24,11 +24,15 @@ I implemented AWS S3, dealt with uploading images (from a separate front-end) an
 
 ## Sweater Weather
 
-[Sweater Weather](({% link sweater-weather.markdown %})) was a solo mod 3 project, with learning outcomes around sending/receiving data with third-party APIs, and authentication/authorization basics.
+[Sweater Weather]({% link sweater-weather.markdown %}) was a solo mod 3 project, with learning outcomes around sending/receiving data with third-party APIs, and authentication/authorization basics.
 
 I built a Rails API-only backend with endpoints exposing data relating to current and forecasted weather at destinations provided by the user.
 
 ## Flash Cards
 
-[Flash Cards](({% link flash-cards.markdown %})) was my first group project at Turing, very fun for a brand-new early-career software developer.
+[Flash Cards]({% link flash-cards.markdown %}) was my first solo project at Turing, very fun for a brand-new early-career software developer.
 
+## Viewing Party
+[Viewing Party]({% link viewing-party.markdown %}) was a paired project at Turing and the first project where I consumed a third-party API, great introduction to learning how to utilize an API.
+
+We built an app where we utilized a third-party API to search for movies and add them to a viewing party where other users are invited.
