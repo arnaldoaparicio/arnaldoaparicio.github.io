@@ -11,7 +11,7 @@ Flash Cards was a solo project in which I built a simulated flash card game wher
 
 - Object-oriented design with Ruby
 - Rspec for unit testing and TDD
-- learned to host code on GitHub and collaborate via pull requests
+- learned to host code on GitHub and create pull requests
 
 ## Timeline: 
 
