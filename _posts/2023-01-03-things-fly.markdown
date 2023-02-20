@@ -40,6 +40,21 @@ One time, I was teaching a friend how to use fly.io. While I was deploying an ap
 
 All I did to fix the problem was to turn off my VPN and deploy my app again and it deployed successfully.
 
+## 4. Make sure to set your secrets
+There may be a time where your deployment will fail and you may feel like you configured everything correctly. Perhaps you haven't added your credentials.
+
+For instance, the backend of my MUGEN DB project uses Amazon S3. I spent over an hour trying to fix my failing deployment and for the life of me, couldn't figure out the problem. I stared long and hard at my logs. As a last resort, I added my Amazon credentials to my project. And guess what??
+
+It worked!
+
+For reference, be sure to set your credentials, API keys, etc. in your terminal as shown
+
+{% highlight console %}
+$ flyctl secrets set <VARIABLE>=<YOUR_SECRET>
+{% endhighlight %}
+
+For more on how fly.io secrets, over here for more info: [https://fly.io/docs/reference/secrets/](https://fly.io/docs/reference/secrets/)
+
 <br>
 <br>
 
