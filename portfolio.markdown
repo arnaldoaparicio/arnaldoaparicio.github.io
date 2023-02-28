@@ -16,9 +16,9 @@ It is a web app where users can:
 
 Book Club won Turing's Demo Comp, even when competing from a relatively weak position of being "only" in mod 3, competing against mod 4 projects.
 
-## Mugen DB
+## Untitled Mugen DB
 
-[Mugen DB]({% link mugen-db.markdown %}) was an enjoyable solo project in which I guilt a separated front-end/back-end game engine to support host resources and information for players of a game called [MUGEN](https://en.wikipedia.org/wiki/Mugen_(game_engine)).
+[Untitled Mugen DB]({% link mugen-db.markdown %}) was an enjoyable solo project in which I guilt a separated front-end/back-end game engine to support host resources and information for players of a game called [MUGEN](https://en.wikipedia.org/wiki/Mugen_(game_engine)).
 
 I implemented AWS S3, dealt with uploading images (from a separate front-end) and storing/saving them in a separate backend.
 
