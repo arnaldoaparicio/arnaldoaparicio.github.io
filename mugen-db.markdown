@@ -32,6 +32,6 @@ Currently, only a registered admin is allowed to publish content.
 ## Links
 
 - [App Repo](https://github.com/arnaldoaparicio/mugen_db_fe)
-- [Deployed Ap](https://mugen-db-aa.fly.dev/)
+- [Deployed App](https://mugen-db-aa.fly.dev/)
 - [Server Repo](https://github.com/arnaldoaparicio/mugen_db)
-- [Deployed Serve](https://mugen-db-be.fly.dev/api/v1/characters)
+- [Deployed Server](https://mugen-db-be.fly.dev/api/v1/characters)
