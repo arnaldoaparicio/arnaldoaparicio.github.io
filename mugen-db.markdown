@@ -21,6 +21,7 @@ Mugen DB was an enjoyable solo project in which I guilt a game engine to support
 - Amazon S3
 - PostgreSQL
 - fly.io
+- Bootstrap
 
 ## Context
 
