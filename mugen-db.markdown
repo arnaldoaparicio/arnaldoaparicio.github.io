@@ -4,9 +4,9 @@
 layout: page
 ---
 
-# MUGEN DB
+# Untitled MUGEN DB
 
-Mugen DB was an enjoyable solo project in which I guilt a game engine to support host resources and information for players of a game called [MUGEN](https://en.wikipedia.org/wiki/Mugen_(game_engine)).
+Untitled Mugen DB was an enjoyable solo project in which I guilt a game engine to support host resources and information for players of a game engine called [MUGEN](https://en.wikipedia.org/wiki/Mugen_(game_engine)).
 
 ## Focus Areas
 
