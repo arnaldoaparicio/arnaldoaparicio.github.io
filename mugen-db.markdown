@@ -35,3 +35,6 @@ Currently, only a registered admin is allowed to publish content.
 - [Deployed App](https://mugen-db-aa.fly.dev/)
 - [Server Repo](https://github.com/arnaldoaparicio/mugen_db)
 - [Deployed Server](https://mugen-db-be.fly.dev/api/v1/characters)
+
+## Demo
+<iframe width="560" height="315" src="https://www.youtube.com/embed/E59E0eHPCGo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
