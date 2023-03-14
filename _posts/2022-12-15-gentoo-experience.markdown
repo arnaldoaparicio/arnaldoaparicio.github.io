@@ -55,11 +55,11 @@ You have the power to do what you want with your system.
 
 Of course, I needed to install a bunch of things to my liking. Other things I installed include:
 
-An archiving tool
-Zoom
-Slack
-Graphics processor drivers
-A file manager
+- An archiving tool
+- Zoom
+- Slack
+- Graphics processor drivers
+- A file manager
 
 I may be missing a few things but this is all I can think of at the moment.
 Overall, it has been a joy to use Gentoo. I've learned so much through my experience. It runs smoothly
