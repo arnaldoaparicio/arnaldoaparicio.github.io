@@ -1,5 +1,6 @@
 ---
 layout: post
+title: "Useful fly.io tips"
 permalink: /things-fly/
 ---
 
