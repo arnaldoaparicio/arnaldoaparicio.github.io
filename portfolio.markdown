@@ -32,7 +32,3 @@ I built a Rails API-only backend with endpoints exposing data relating to curren
 
 [Flash Cards]({% link flash-cards.markdown %}) was my first solo project at Turing, very fun for a brand-new early-career software developer.
 
-## Viewing Party
-[Viewing Party]({% link viewing-party.markdown %}) was a paired project at Turing and the first project where I consumed a third-party API, great introduction to learning how to utilize an API.
-
-We built an app where we utilized a third-party API to search for movies and add them to a viewing party where other users are invited.
