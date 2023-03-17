@@ -5,19 +5,13 @@ title: "Setting up Java in Gentoo"
 
 # Setup
 
-This is documentation on installing Java onto my computer. In this case, i will be doing it on Gentoo Linux. I will be going blind on this so I may make some mistakes along the way so bear with me.
+This is documentation on installing Java onto my computer. In this case, I will be doing it on Gentoo Linux. I will be going blind on this with nothing other than the documentation I'm reading.
 
-Something not many people may know about myself is that I took Java classes in college. Admittedly, I haven't coded anything in Java since then.
+Something not many people may know about myself is that I took Java classes in college. Admittedly, as of the time I'm writing this, I haven't coded anything in Java since then.
 
 This isn't so much a guide or tutorial but just documenting the steps I had to take to install everything needed.
 
-I will be following a few resources that will be linked on the bottom of this page. I'll go into root and install the JDK.
-
-
-
-
 ## Installing OpenJDK
-
 
 I'll be installing OpenJDK, Oracle's open-source JDK. I'm gonna do it as root.
 {% highlight console %}
@@ -51,7 +45,7 @@ Would you like to merge these packages? [Yes/No]
 
 {% endhighlight %}
 
-We're gonna type "yes"
+We're gonna type "yes".
 
 
 {% highlight console %}
@@ -76,11 +70,9 @@ We're gonna type "yes"
 
 Now we have successfully installed it.
 
-
 ## Installing an IDE
 
 I'll be installing an IDE. I use VSCode (RIP Atom) but I remember using BlueJ and Eclipse when I was writing Java code in college. I'll be installing IntelliJ IDEA: Community Edition, which is something completely unknown to me but I'll use it anyways.
-
 
 Now while remaining as root, I'll enter the following:
 {% highlight console %}
@@ -120,19 +112,15 @@ And let the installation begin.
 
 Sheeesh. It took almost two hours to install Intellij.
 
-
 ## Results
 
-At this point, I will be doing the underpants garden gnome 
+At this point, I will be doing the underpants garden gnome logic
 
 1. Install JDK
 2. Install Intellij
 3. ???
 4. PROFIT    <------ Running Java code
 
-
-
-
 ## Additional Links
-- https://wiki.gentoo.org/wiki/Java
-
+- [https://wiki.gentoo.org/wiki/Java](https://wiki.gentoo.org/wiki/Java)
+- [https://packages.gentoo.org/packages/dev-util/idea-community](https://packages.gentoo.org/packages/dev-util/idea-community)
