@@ -5,7 +5,7 @@ title: "Setting up Java in Gentoo"
 
 # Setup
 
-This is documentation on installing Java onto my computer. In this case, I will be doing it on Gentoo Linux. I will be going blind on this with nothing other than the documentation I'm reading.
+This is documentation on installing Java onto my Gentoo linux machine. I will be going blind on this with nothing other than the documentation I'm reading.
 
 Something not many people may know about myself is that I took Java classes in college. Admittedly, as of the time I'm writing this, I haven't coded anything in Java since then.
 
@@ -20,9 +20,7 @@ host /home/ren # emerge --ask --oneshot virtual/jdk
 {% endhighlight %}
 
 Now we see this
-{% highlight console %}
- host /home/ren # emerge --ask --oneshot virtual/jdk
-
+{% highlight shell %}
  * IMPORTANT: 12 news items need reading for repository 'gentoo'.
  * Use eselect news read to view new items.
 
@@ -48,7 +46,7 @@ Would you like to merge these packages? [Yes/No]
 We're gonna type "yes".
 
 
-{% highlight console %}
+{% highlight shell %}
 ...
 
  * Final size of build directory: 4 KiB
@@ -68,20 +66,20 @@ We're gonna type "yes".
 
 {% endhighlight %}
 
-Now we have successfully installed it.
+Now we have successfully installed it!
 
 ## Installing an IDE
 
 I'll be installing an IDE. I use VSCode (RIP Atom) but I remember using BlueJ and Eclipse when I was writing Java code in college. I'll be installing IntelliJ IDEA: Community Edition, which is something completely unknown to me but I'll use it anyways.
 
-Now while remaining as root, I'll enter the following:
+While remaining as root, I'll enter the following:
 {% highlight console %}
 host /home/ren # emerge --ask dev-util/idea-community
 {% endhighlight %}
 
-And let the installation begin.
+And let the installation begin!
 
-{% highlight console %}
+{% highlight shell %}
 ...
 >>> Installing (12 of 12) dev-util/idea-community-2022.2.3::gentoo
 
@@ -110,7 +108,7 @@ And let the installation begin.
 
 {% endhighlight %}
 
-Sheeesh. It took almost two hours to install Intellij.
+Sheeesh. It took almost two hours to install IntelliJ!
 
 ## Results
 
@@ -120,6 +118,11 @@ At this point, I will be doing the underpants garden gnome logic
 2. Install Intellij
 3. ???
 4. PROFIT    <------ Running Java code
+
+
+So after finishing all of this, it was rather painless albeit very time consuming (waittimes on installing packages can be brutal).
+
+Now begins my journey into relearning Java again!
 
 ## Additional Links
 - [https://wiki.gentoo.org/wiki/Java](https://wiki.gentoo.org/wiki/Java)
