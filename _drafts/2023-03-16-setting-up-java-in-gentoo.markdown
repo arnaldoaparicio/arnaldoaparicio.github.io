@@ -5,11 +5,11 @@ title: "Setting up Java in Gentoo"
 
 # Setup
 
-This is documentation on installing Java onto my Gentoo linux machine. I will be going blind on this with nothing other than the documentation I'm reading.
+This is documentation on installing Java onto my Gentoo Linux machine. I will be going blind on this with nothing other than the documentation I'm reading.
 
 Something not many people may know about myself is that I took Java classes in college. Admittedly, as of the time I'm writing this, I haven't coded anything in Java since then.
 
-This isn't so much a guide or tutorial but just documenting the steps I had to take to install everything needed.
+This isn't so much a guide or tutorial but just documenting the process I had to take to install everything needed.
 
 ## Installing OpenJDK
 
@@ -43,7 +43,7 @@ Would you like to merge these packages? [Yes/No]
 
 {% endhighlight %}
 
-We're gonna type "yes".
+I'm gonna type "yes".
 
 
 {% highlight shell %}
@@ -66,11 +66,11 @@ We're gonna type "yes".
 
 {% endhighlight %}
 
-Now we have successfully installed it!
+OpenJDK has been successfully installed!
 
 ## Installing an IDE
 
-I'll be installing an IDE. I use VSCode (RIP Atom) but I remember using BlueJ and Eclipse when I was writing Java code in college. I'll be installing IntelliJ IDEA: Community Edition, which is something completely unknown to me but I'll use it anyways.
+I'll be installing an IDE. I use VSCode (_RIP Atom_) but I remember using BlueJ and Eclipse when I was writing Java code in college. I'll be installing IntelliJ IDEA: Community Edition, which is something completely unknown to me but I'll use it anyways.
 
 While remaining as root, I'll enter the following:
 {% highlight console %}
@@ -108,21 +108,22 @@ And let the installation begin!
 
 {% endhighlight %}
 
-Sheeesh. It took almost two hours to install IntelliJ!
+Sheeesh! The installation took about two hours!!
 
 ## Results
 
-At this point, I will be doing the underpants garden gnome logic
+At this point, I will be doing the Underpants Gnome logic and abstract the process of writing Java code.
 
-1. Install JDK
-2. Install Intellij
-3. ???
-4. PROFIT    <------ Running Java code
+<img src="https://i.imgur.com/ELE7t9h.png">
+
+And here are the results:
+
+<img src="https://i.imgur.com/MDlvSkR.png">
 
 
-So after finishing all of this, it was rather painless albeit very time consuming (waittimes on installing packages can be brutal).
+So after finishing all of this, it was rather painless albeit very time consuming (wait times on installing packages can be brutal). This wasn't so bad after all.
 
-Now begins my journey into relearning Java again!
+Now my journey into relearning Java begins!
 
 ## Additional Links
 - [https://wiki.gentoo.org/wiki/Java](https://wiki.gentoo.org/wiki/Java)
