@@ -5,7 +5,9 @@ title: "Setting up Java in Gentoo"
 
 # Setup
 
-This is documentation on installing java onto my computer. In this case, i will be doing it on Gentoo Linux. I will be going blind on this so I may make some mistakes along the way so bear with me.
+This is documentation on installing Java onto my computer. In this case, i will be doing it on Gentoo Linux. I will be going blind on this so I may make some mistakes along the way so bear with me.
+
+This isn't so much a guide or tutorial but just documenting the steps I had to take to install everything needed.
 
 I will be following a guide as shown. I'll go into root and install the JDK
 
@@ -74,7 +76,19 @@ Now we have successfully installed it.
 We will install an IDE. I use VsCode (RIP Atom) but I remember using BlueJ and Eclipse when I was coding in Java. I'll be installing Intellij: Community Edition. Something completely unknown to me but I'll use it anyways.
 
 
+{% highlight console %}
+yasss /home/ren # emerge --ask dev-util/idea-community
+{% endhighlight %}
 
+
+Sheeesh. It took over an hour to install Intellij. 
+
+At this point, I will be doing the underpants garden gnome 
+
+1. Install JDK
+2. Install Intellij
+3. ???
+4. PROFIT    <------ Running Java code
 
 
 
