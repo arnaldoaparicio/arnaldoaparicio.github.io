@@ -7,22 +7,27 @@ title: "Setting up Java in Gentoo"
 
 This is documentation on installing Java onto my computer. In this case, i will be doing it on Gentoo Linux. I will be going blind on this so I may make some mistakes along the way so bear with me.
 
-This isn't so much a guide or tutorial but just documenting the steps I had to take to install everything needed.
-
-I will be following a guide as shown. I'll go into root and install the JDK
-
 Something not many people may know about myself is that I took Java classes in college. Admittedly, I haven't coded anything in Java since then.
 
+This isn't so much a guide or tutorial but just documenting the steps I had to take to install everything needed.
+
+I will be following a few resources that will be linked on the bottom of this page. I'll go into root and install the JDK.
 
 
+
+
+## Installing OpenJDK
+
+
+I'll be installing OpenJDK, Oracle's open-source JDK. I'm gonna do it as root.
 {% highlight console %}
-yasss /home/ren # emerge --ask --oneshot virtual/jdk
+host /home/ren # emerge --ask --oneshot virtual/jdk
 
 {% endhighlight %}
 
 Now we see this
 {% highlight console %}
- yasss /home/ren # emerge --ask --oneshot virtual/jdk
+ host /home/ren # emerge --ask --oneshot virtual/jdk
 
  * IMPORTANT: 12 news items need reading for repository 'gentoo'.
  * Use eselect news read to view new items.
@@ -72,16 +77,51 @@ We're gonna type "yes"
 Now we have successfully installed it.
 
 
+## Installing an IDE
 
-We will install an IDE. I use VsCode (RIP Atom) but I remember using BlueJ and Eclipse when I was coding in Java. I'll be installing Intellij: Community Edition. Something completely unknown to me but I'll use it anyways.
+I'll be installing an IDE. I use VSCode (RIP Atom) but I remember using BlueJ and Eclipse when I was writing Java code in college. I'll be installing IntelliJ IDEA: Community Edition, which is something completely unknown to me but I'll use it anyways.
 
 
+Now while remaining as root, I'll enter the following:
 {% highlight console %}
-yasss /home/ren # emerge --ask dev-util/idea-community
+host /home/ren # emerge --ask dev-util/idea-community
 {% endhighlight %}
 
+And let the installation begin.
 
-Sheeesh. It took over an hour to install Intellij. 
+{% highlight console %}
+...
+>>> Installing (12 of 12) dev-util/idea-community-2022.2.3::gentoo
+
+>>> Recording dev-util/idea-community in "world" favorites file...
+
+ * Messages for package dev-lang/rust-1.65.0:
+
+ * Rust installs a helper script for calling GDB and LLDB,
+ * for your convenience it is installed under /usr/bin/rust-{gdb,lldb}-1.65.0.
+
+ * Messages for package x11-libs/gtk+-2.24.33-r2:
+
+ * Please install app-text/evince for print preview functionality.
+ * Alternatively, check "gtk-print-preview-command" documentation and
+ * add it to your gtkrc.
+
+ * GNU info directory index is up-to-date.
+
+ * IMPORTANT: 5 config files in '/etc' need updating.
+ * See the CONFIGURATION FILES and CONFIGURATION FILES UPDATE TOOLS
+ * sections of the emerge man page to learn how to update config files.
+
+ * IMPORTANT: 12 news items need reading for repository 'gentoo'.
+ * Use eselect news read to view new items.
+
+
+{% endhighlight %}
+
+Sheeesh. It took almost two hours to install Intellij.
+
+
+## Results
 
 At this point, I will be doing the underpants garden gnome 
 
