@@ -120,6 +120,8 @@ And here are the results:
 
 <img src="https://i.imgur.com/MDlvSkR.png">
 
+Great success!
+
 
 So after finishing all of this, it was rather painless albeit very time consuming (wait times on installing packages can be brutal). This wasn't so bad after all.
 
