@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Setting up Java in Gentoo"
+title: "Setting up Java on Gentoo Linux"
 ---
 
 # Setup
