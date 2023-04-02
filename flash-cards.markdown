@@ -25,7 +25,7 @@ Flash Cards was a solo project in which I built a simulated flash card game wher
 ## Links
 
 - [App Repo](https://github.com/arnaldoaparicio/flash_cards) 
-- [Java Version](https://github.com/arnaldoaparicio/flashcards_java)
+- [App Repo (Java Version)](https://github.com/arnaldoaparicio/flashcards_java)
 
 ## Demo
 
