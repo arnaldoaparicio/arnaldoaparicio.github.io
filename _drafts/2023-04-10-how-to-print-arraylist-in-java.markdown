@@ -8,7 +8,6 @@ title:  "How to print an ArrayList in Java"
 So recently, I was working on an old Turing project but rather than work on it using Ruby, I worked on it using Java.
 Something I noticed is that it is not so easy to print an array in Java like it is in Ruby. As you work on the project in Ruby, you should be able to return an array of turns taken. it's easy enough to do that like this.
 
-##RUBY CODE
 {% highlight ruby %}
 p round.turns
 {% endhighlight %}
@@ -19,7 +18,6 @@ And it returns
 {% endhighlight %}
 
 But when trying it in Java in a similar way, this happens
-##BROKEN JAVA CODE
 
 {% highlight java %}
 System.out.println(round.getTurns());
