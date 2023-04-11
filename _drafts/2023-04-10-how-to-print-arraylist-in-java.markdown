@@ -58,7 +58,7 @@ First, I created an empty ArrayList as a local variable.
 
 Next, I took the ```turnsTaken``` variable and iteration over it.
 
-What I'm basically doing is attatching the instance of Turn to the card that is part of the turn, attatch the card details, and converting it to a string. Now that it is formatted, I add the newly formatted string into the ArrayList ```formattedTurnsTaken```.
+What I'm basically doing is attaching the instance of Turn to the card that is part of the turn, attach the card details, and converting it to a string. Now that it is formatted, I add the newly formatted string into the ArrayList ```formattedTurnsTaken```.
 
 Afterwards, I return the ```formattedTurnsTaken``` ArrayList.  But I must return a string since the method will return a string. So I converted the ArrayList ```formattedTurnsTaken``` to a string using ```.toString()```.
 
