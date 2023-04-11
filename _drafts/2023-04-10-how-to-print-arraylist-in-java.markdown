@@ -31,7 +31,7 @@ What's going on here? It's not printing everything out.
 
 Hmmmm....how are we able to do this?
 
-This is how the 'get.Turns()' method looks like
+This is how the ```get.Turns()``` method looks like
 {% highlight java %}
     public ArrayList<Turn> getTurns() {
         return turnsTaken;
