@@ -54,7 +54,7 @@ This is the end result
     }
 {% endhighlight %}
 
-First, I created an empty ArrayList as a local variable.
+First, I created an empty ArrayList as a local variable within the ```getTurnsTaken()``` method.
 
 Next, I took the ```turnsTaken``` variable and iteration over it.
 
