@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "How to print an ArrayList in Java"
+title:  "Printing an Array in Ruby vs. Java"
 ---
 
 # Overview
 
-So recently, I was working on an old Turing project but rather than work on it using Ruby, I worked on it using Java.
+So recently, I did a redo on an old [Turing Mod 1 project](https://backend.turing.edu/module1/projects/flashcards/) but rather than work on it using Ruby, I worked on it using Java.
 Something I noticed is that it is not so easy to print an array in Java like it is in Ruby. As you work on the project in Ruby, you should be able to return an array of turns taken. it's easy enough to do that like this.
 
 For some context, this is a portion of the Turn class in Ruby
@@ -39,10 +39,9 @@ System.out.println(round.getTurns());
 [Turn@4aa298b7]
 {% endhighlight %}
 
-What's going on here? It's not printing everything out.
+What's going on here? It's not printing everything out. It seems to print out the memory address but no other details about the turn. Not the Card details that are tied to the turn nor the turn's guess.
 
 Hmmmm....how are we able to do this?
-
 
 Much like earlier in this post and for some context, here is a portion of the Turn class in Java.
 
@@ -85,7 +84,9 @@ This is the end result
 
 This may be A LOT to digest but lets break this down.
 
-First, I created an empty ArrayList as a local variable within the ```getTurnsTaken()``` method.
+First we want to explicitly mention the return type. In this case, it will return a string.
+
+I created an empty ArrayList as a local variable within the ```getTurnsTaken()``` method.
 
 Next, I took the ```turnsTaken``` variable and iteration over it.
 
