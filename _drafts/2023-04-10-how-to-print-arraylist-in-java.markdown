@@ -8,6 +8,18 @@ title:  "How to print an ArrayList in Java"
 So recently, I was working on an old Turing project but rather than work on it using Ruby, I worked on it using Java.
 Something I noticed is that it is not so easy to print an array in Java like it is in Ruby. As you work on the project in Ruby, you should be able to return an array of turns taken. it's easy enough to do that like this.
 
+For some context, this is a portion of the Turn class in Ruby
+
+{% highlight ruby %}
+class Turn
+  attr_reader :guess, :card
+
+  def initialize(guess, card)
+    @guess = guess
+    @card = card
+  end
+{% endhighlight %}
+
 {% highlight ruby %}
 p round.turns
 {% endhighlight %}
@@ -31,6 +43,23 @@ What's going on here? It's not printing everything out.
 
 Hmmmm....how are we able to do this?
 
+
+Much like earlier in this post and for some context, here is a portion of the Turn class in Java.
+
+{% highlight java %}
+import java.util.ArrayList;
+import java.util.stream.*;
+import java.util.List;
+public class Round {
+
+    private Deck deck;
+    private ArrayList<Turn> turnsTaken = new ArrayList<Turn>();
+
+    Round(Deck deck) {
+        this.deck = deck;
+    }
+{% endhighlight %}
+
 This is how the ```get.Turns()``` method looks like
 {% highlight java %}
     public ArrayList<Turn> getTurns() {
@@ -53,6 +82,8 @@ This is the end result
         return formattedTurnsTaken.toString();
     }
 {% endhighlight %}
+
+This may be A LOT to digest but lets break this down.
 
 First, I created an empty ArrayList as a local variable within the ```getTurnsTaken()``` method.
 
