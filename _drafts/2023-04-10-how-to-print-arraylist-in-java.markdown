@@ -5,10 +5,13 @@ title:  "Printing an Array in Ruby vs. Java"
 
 # Overview
 
-So recently, I did a redo on an old [Turing Mod 1 project](https://backend.turing.edu/module1/projects/flashcards/) but rather than work on it using Ruby, I worked on it using Java.
-Something I noticed is that it is not so easy to print an array in Java like it is in Ruby. As you work on the project in Ruby, you should be able to return an array of turns taken. it's easy enough to do that like this.
+So recently, I did a redo on an old [Turing Mod 1 project called Flashcards](https://backend.turing.edu/module1/projects/flashcards/) but rather than use Ruby, I built it from scratch using Java.
 
-For some context, this is a portion of the Turn class in Ruby
+Something I noticed is that it is not so easy to print an array in Java like it is in Ruby. [One of the requirements of this project](https://backend.turing.edu/module1/projects/flashcards/iteration_2), you are tasked to create a Round class. One of the instance variables you create is called ```turns``` with the default value of an empty array. The ```turns``` instance variable contains every instance of the Turn class along with an instance of the Card class tied to it as well as a ```guess``` in the form of a string.
+
+Before proceeding further, I want to clarify that I am printing an ArrayList in Java, not Array. For more clarification on the differences between the two, [here is a great resource](https://www.javatpoint.com/difference-between-array-and-arraylist) for a more in-depth explanation.
+
+For some context, this is a portion of the Turn class in Ruby containing the initializer.
 
 {% highlight ruby %}
 class Turn
@@ -18,6 +21,31 @@ class Turn
     @guess = guess
     @card = card
   end
+{% endhighlight %}
+
+
+And this is a portion of the Turn class in Java, showing its constructor and a couple of getters.
+
+{% highlight java %}
+
+public class Turn {
+
+    private String guess;
+    private Card card;
+
+    Turn(String guess, Card card) {
+        this.guess = guess;
+        this.card = card;
+    }
+
+    public String getGuess() {
+        return this.guess;
+    }
+
+    public Card getCard() {
+        return this.card;
+    }
+
 {% endhighlight %}
 
 {% highlight ruby %}
