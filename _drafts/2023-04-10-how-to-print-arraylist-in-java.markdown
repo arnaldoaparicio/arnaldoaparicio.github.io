@@ -140,6 +140,43 @@ It looks like we are going to need something more.
 
 ## A solution in Java
 
+So our first attempt wasn't successful. But when there's a will, there's a way.
+
+I'll be creating a new method called ```getTurnsTaken()```
+
+{% highlight java %}
+
+    public String getTurnsTaken() {
+        
+    }
+
+{% endhighlight %}
+
+This method will return a String instead of an ArrayList of Turn. Lets add some stuff to it.
+
+First we will create a new ArrayList within the method. We will name it ```formattedTurnsTaken```. More on that later.
+
+{% highlight java %}
+
+    public String getTurnsTaken() {
+        ArrayList<String> formattedTurnsTaken = new ArrayList<String>();
+    }
+
+{% endhighlight %}
+
+Next, we will be calling the ```forEach``` method and use it on our instance variable ```turnsTaken```
+
+{% highlight java %}
+
+    public String getTurnsTaken() {
+        ArrayList<String> formattedTurnsTaken = new ArrayList<String>();
+
+         turnsTaken.forEach(turn -> {
+...
+{% endhighlight %}
+
+
+
 {% highlight java %}
     public String getTurnsTaken() {
         ArrayList<String> formattedTurnsTaken = new ArrayList<String>();
