@@ -5,11 +5,11 @@ title:  "Printing an Array in Ruby vs. Java"
 
 # Overview
 
-So recently, I did a redo on an old [Turing Mod 1 project called Flashcards](https://backend.turing.edu/module1/projects/flashcards/) but rather than use Ruby, I built it from scratch using Java.
+So recently, I did a redo on an old [Turing Mod 1 project called FlashCards](https://backend.turing.edu/module1/projects/flashcards/) but rather than use Ruby, I built it from scratch using Java.
 
 Something I noticed is that it is not so easy to print an array in Java like it is in Ruby. [One of the requirements of this project](https://backend.turing.edu/module1/projects/flashcards/iteration_2), you are tasked to create a Round class. One of the instance variables you create is called ```turns``` with the default value of an empty array. The ```turns``` instance variable contains every instance of the Turn class along with an instance of the Card class tied to it as well as a ```guess``` in the form of a string.
 
-Before proceeding further, I want to clarify that I am printing an ArrayList in Java, not Array. For more clarification on the differences between the two, [here is a great resource](https://www.javatpoint.com/difference-between-array-and-arraylist) for a more in-depth explanation.
+Before proceeding further, I want to clarify that for Java, I am printing an ArrayList not an Array. For more clarification on the differences between the two, [here is a great resource](https://www.javatpoint.com/difference-between-array-and-arraylist) for a more in-depth explanation.
 
 For some context, this is a portion of the Turn class in Ruby containing the initializer.
 
@@ -48,30 +48,44 @@ public class Turn {
 
 {% endhighlight %}
 
+
+## In Ruby
+
+Let's focus on the Ruby part first.
+
+This is currently how the ```Round``` class looks like.
+
+{% highlight ruby %}
+
+class Round
+  attr_reader :deck, :turns
+
+  def initialize(deck)
+    @deck = deck
+    @turns = []
+  end
+
+{% endhighlight %}
+
+Lets assume that an instance of a Turn exists in the ```@turns``` array.
+
+According to the iteration, if we simply did this
 {% highlight ruby %}
 p round.turns
 {% endhighlight %}
 
-And it returns
+It will return this.
 {% highlight console %}
 [#<Turn:0x000000013a965150 @guess="tessa", @card=#<Card:0x000000013a965a88 @question="What is the first name of the main character in Silent Hill 3?", @answer="heather", @category="Video Games">>]
 {% endhighlight %}
 
-But when trying it in Java in a similar way, this happens
+So much like how it is shown in the iteration, it will return the Turn object, along with it's guess and the card tied to it, as well as the card's details (that being a card's question, answer, and category).
 
-{% highlight java %}
-System.out.println(round.getTurns());
-{% endhighlight %}
+This is what we want to do in Ruby. But what about Java?
 
-{% highlight console %}
-[Turn@4aa298b7]
-{% endhighlight %}
+## In Java
 
-What's going on here? It's not printing everything out. It seems to print out the memory address but no other details about the turn. Not the Card details that are tied to the turn nor the turn's guess.
-
-Hmmmm....how are we able to do this?
-
-Much like earlier in this post and for some context, here is a portion of the Turn class in Java.
+Much like earlier in this post and for some context, here is a portion of the Round class in Java.
 
 {% highlight java %}
 import java.util.ArrayList;
@@ -87,16 +101,44 @@ public class Round {
     }
 {% endhighlight %}
 
-This is how the ```get.Turns()``` method looks like
+Unfortunately, we cannot do what we can do in Ruby. 
+
+So if we did this
+{% highlight java %}
+
+System.out.println(round.turnsTaken);
+
+{% endhighlight %}
+
+This would not work because the ```.turnsTaken``` part is private and we cannot call it this way. However, we can create a method that will return our ArrayList.
+
+I'll create a ```getTurns()``` method and this is how it looks like
+
 {% highlight java %}
     public ArrayList<Turn> getTurns() {
         return turnsTaken;
     }
 {% endhighlight %}
 
-It looks like we are going to need something more.
+Now that we created this method, we will call it.
 
-This is the end result 
+{% highlight java %}
+System.out.println(round.getTurns());
+{% endhighlight %}
+
+Assuming the ArrayList contains one instance of a Turn, this is the result
+
+{% highlight console %}
+[Turn@4aa298b7]
+{% endhighlight %}
+
+What's going on here? It's not printing everything out. It seems to print out the memory address but no other details about the turn. Not the Card details that are tied to the turn nor the turn's guess.
+
+Hmmmm....how are we able to do this?
+
+It looks like we are going to need something more. 
+
+## A solution in Java
 
 {% highlight java %}
     public String getTurnsTaken() {
