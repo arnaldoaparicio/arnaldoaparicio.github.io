@@ -175,6 +175,48 @@ Next, we will be calling the ```forEach``` method and use it on our instance var
 ...
 {% endhighlight %}
 
+So what's going on here? We will be iterating through the ```turnsTaken``` ArrayList and we will ```add``` to our newly created ```formattedTurnsTaken``` ArrayList.
+
+As we iterate through out ```turnsTaken``` ArrayList, we will have access to all instances of Turn, along with the guess and the Turn's card. Let's set this up.
+
+{% highlight java %}
+
+    public String getTurnsTaken() {
+        ArrayList<String> formattedTurnsTaken = new ArrayList<String>();
+
+         turnsTaken.forEach(turn -> {
+            formattedTurnsTaken.add(String.format())
+...
+{% endhighlight %}
+
+Now we're passing through the ```String format``` method. What does this do? We create a new string and format it to our liking. Lets try it.
+
+{% highlight java %}
+
+    public String getTurnsTaken() {
+        ArrayList<String> formattedTurnsTaken = new ArrayList<String>();
+
+         turnsTaken.forEach(turn -> {
+            formattedTurnsTaken.add(String.format("%s card=%s question=%s"))
+...
+{% endhighlight %}
+
+What is ```%s```? It is a format specifier that will allow us to pass data into the string. The ```String format``` method will allow us to pass in multiple arguments that will add to our string.
+
+Remember, we're still in the loop and have access to each instance of Turn, the Turn's card and guess. Let's add more.
+
+{% highlight java %}
+
+    public String getTurnsTaken() {
+        ArrayList<String> formattedTurnsTaken = new ArrayList<String>();
+
+         turnsTaken.forEach(turn -> {
+            formattedTurnsTaken.add(String.format("%s card=%s question=%s", turn.toString(), turn.getCard(), turn.getCard().getQuestion()))
+...
+{% endhighlight %}
+
+So what did we pass into our method? 
+
 
 
 {% highlight java %}
