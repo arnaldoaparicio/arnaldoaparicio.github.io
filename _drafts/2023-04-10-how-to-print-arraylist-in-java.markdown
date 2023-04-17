@@ -22,7 +22,7 @@ class Turn
     @card = card
   end
 {% endhighlight %}
-
+<br>
 
 And this is a portion of the Turn class in Java, showing its constructor and a couple of getters.
 
@@ -69,6 +69,8 @@ class Round
 
 Lets assume that an instance of a Turn exists in the ```@turns``` array.
 
+<br>
+
 According to the iteration, if we simply did this
 {% highlight ruby %}
 p round.turns
@@ -79,7 +81,9 @@ It will return this.
 [#<Turn:0x000000013a965150 @guess="tessa", @card=#<Card:0x000000013a965a88 @question="What is the first name of the main character in Silent Hill 3?", @answer="heather", @category="Video Games">>]
 {% endhighlight %}
 
-So much like how it is shown in the iteration, it will return the Turn object, along with it's guess and the card tied to it, as well as the card's details (that being a card's question, answer, and category).
+<br>
+
+So much like how it is shown in the iteration, it will return the Turn hexadecimal, along with it's guess and the card tied to it (mainly the hexadecimal), as well as the card's details (that being a card's question, answer, and category).
 
 This is what we want to do in Ruby. But what about Java?
 
@@ -101,8 +105,6 @@ public class Round {
     }
 {% endhighlight %}
 
-Unfortunately, we cannot do what we can do in Ruby. 
-
 So if we did this
 {% highlight java %}
 
@@ -110,7 +112,7 @@ System.out.println(round.turnsTaken);
 
 {% endhighlight %}
 
-This would not work because the ```.turnsTaken``` part is private and we cannot call it this way. However, we can create a method that will return our ArrayList.
+This would not work because the ```.turnsTaken``` instance variable is private and we cannot call it this way. However, we can create a method that will return our ArrayList.
 
 I'll create a ```getTurns()``` method and this is how it looks like
 
@@ -154,7 +156,7 @@ I'll be creating a new method called ```getTurnsTaken()```
 
 {% endhighlight %}
 
-This method will return a String instead of an ArrayList of Turn. Lets add some stuff to it.
+This method will return a String instead of an ArrayList. Lets add some stuff to it.
 
 First we will create a new ArrayList within the method. We will name it ```formattedTurnsTaken```. More on that later.
 
@@ -231,8 +233,8 @@ Let's complete it like this
         ArrayList<String> formattedTurnsTaken = new ArrayList<String>();
 
         turnsTaken.forEach(turn -> {
-            formattedTurnsTaken.add(String.format("%s card=%s question=%s, answer=%s, category=%s", 
-            turn.toString(), turn.getCard(), turn.getCard().getQuestion(), turn.getCard().getAnswer(), turn.getCard().getCategory()));
+            formattedTurnsTaken.add(String.format("%s guess=%s card=%s question=%s, answer=%s, category=%s", 
+            turn.toString(), turn.getGuess(), turn.getCard(), turn.getCard().getQuestion(), turn.getCard().getAnswer(), turn.getCard().getCategory()));
         });
         return formattedTurnsTaken;
     }
@@ -254,10 +256,10 @@ Exception in thread "main" java.lang.Error: Unresolved compilation problem:
 ...
 {% endhighlight %}
 
-What does this mean? Our ```getTurnsTaken()``` method must return a String but instead returns the ArrayList ```formattedTurnsTaken```. 
+What does this mean? Our ```getTurnsTaken()``` method must return a String but instead tries to returns the ArrayList ```formattedTurnsTaken```. But since we explicitly stated we want to return a string, this will break.
 
 
-## Part 4: toString()
+### Part 4: toString()
 
 What do we do now? Let's convert the ArrayList to a String. It's a simple fix.
 
@@ -278,7 +280,7 @@ All we need to do is add ```.toString()``` to the end of the ```formattedTurnsTa
 
 This will convert ```formattedTurnsTaken``` to a String and now this method will work correctly.
 
-So now when we print this out
+Again, let's assume there exists an instance of a turn. So now when we print this out
 {% highlight java %}
 System.out.println(round.getTurnsTaken());
 {% endhighlight %}
@@ -297,4 +299,5 @@ We printed the details successfully!
 ### Closing thoughts
 
 Phew! This seems like a lot for Java. But I think this process has allowed me to really challenge myself as someone relearning Java and also appreciate the convenience that Ruby provides.
-s
+
+To anyone looking to start coding in Java, it may seem intimidating but I assure you that it is a very great language to learn. It's the most fun I had in a while and I'm sure you will enjoy it too!
