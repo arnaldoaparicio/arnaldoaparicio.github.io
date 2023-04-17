@@ -166,7 +166,7 @@ First we will create a new ArrayList within the method. We will name it ```forma
 
 {% endhighlight %}
 
-## Part 2: forEach()
+### Part 2: forEach()
 
 Next, we will be calling the ```forEach``` method and use it on our instance variable ```turnsTaken```
 
@@ -182,7 +182,7 @@ Next, we will be calling the ```forEach``` method and use it on our instance var
 So what's going on here? We will be iterating through the ```turnsTaken``` ArrayList and we will ```add``` to our newly created ```formattedTurnsTaken``` ArrayList.
 
 
-## Part 3: String.format()
+### Part 3: String.format()
 
 As we iterate through out ```turnsTaken``` ArrayList, we will have access to all instances of Turn, along with the guess and the Turn's card. Let's set this up.
 
@@ -294,4 +294,7 @@ This is what we get.
 
 We printed the details successfully!
 
+### Closing thoughts
+
 Phew! This seems like a lot for Java. But I think this process has allowed me to really challenge myself as someone relearning Java and also appreciate the convenience that Ruby provides.
+s
