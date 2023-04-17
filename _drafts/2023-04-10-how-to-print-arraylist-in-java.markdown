@@ -140,6 +140,7 @@ It looks like we are going to need something more.
 
 ## A solution in Java
 
+## Part 1
 So our first attempt wasn't successful. But when there's a will, there's a way.
 
 I'll be creating a new method called ```getTurnsTaken()```
@@ -163,6 +164,8 @@ First we will create a new ArrayList within the method. We will name it ```forma
     }
 
 {% endhighlight %}
+
+## Part 2
 
 Next, we will be calling the ```forEach``` method and use it on our instance variable ```turnsTaken```
 
@@ -215,8 +218,39 @@ Remember, we're still in the loop and have access to each instance of Turn, the 
 ...
 {% endhighlight %}
 
-So what did we pass into our method? 
+So what did we pass into our method? We passed the Turn memory address, the card memory address, and the card's question. But this is only part of what it should return.
 
+Let's complete it like this
+
+{% highlight java %}
+    public String getTurnsTaken() {
+        ArrayList<String> formattedTurnsTaken = new ArrayList<String>();
+
+        turnsTaken.forEach(turn -> {
+            formattedTurnsTaken.add(String.format("%s card=%s question=%s, answer=%s, category=%s", 
+            turn.toString(), turn.getCard(), turn.getCard().getQuestion(), turn.getCard().getAnswer(), turn.getCard().getCategory()));
+        });
+        return formattedTurnsTaken;
+    }
+{% endhighlight %}
+
+Now this looks more complete! We have included everything mentioned above as well as the card's answer and the card's category.
+
+So this means we're done right?
+
+Well if we were to run it as it is, it throws an error
+
+{% highlight java %}
+System.out.println(round.getTurnsTaken());
+{% endhighlight %}
+
+{% highlight console %}
+Exception in thread "main" java.lang.Error: Unresolved compilation problem: 
+        Type mismatch: cannot convert from ArrayList<String> to String
+...
+{% endhighlight %}
+
+What does this mean? Our get
 
 
 {% highlight java %}
@@ -230,17 +264,4 @@ So what did we pass into our method?
         return formattedTurnsTaken.toString();
     }
 {% endhighlight %}
-
-This may be A LOT to digest but lets break this down.
-
-First we want to explicitly mention the return type. In this case, it will return a string.
-
-I created an empty ArrayList as a local variable within the ```getTurnsTaken()``` method.
-
-Next, I took the ```turnsTaken``` variable and iteration over it.
-
-What I'm basically doing is attaching the instance of Turn to the card that is part of the turn, attach the card details, and converting it to a string. Now that it is formatted, I add the newly formatted string into the ArrayList ```formattedTurnsTaken```.
-
-Afterwards, I return the ```formattedTurnsTaken``` ArrayList.  But I must return a string since the method will return a string. So I converted the ArrayList ```formattedTurnsTaken``` to a string using ```.toString()```.
-
 
