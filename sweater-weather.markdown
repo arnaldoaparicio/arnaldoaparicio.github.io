@@ -1,6 +1,5 @@
 # Sweather Weather API
 
-
 ## Context
 
 Sweater Weather was a solo mod 3 project, with learning outcomes around sending/receiving data with third-party APIs, and authentication/authorization basics.
