@@ -132,7 +132,7 @@ Assuming the ArrayList contains one instance of a Turn, this is the result
 [Turn@4aa298b7]
 {% endhighlight %}
 
-What's going on here? It's not printing everything out. It seems to print out the memory address but no other details about the turn. Not the Card details that are tied to the turn nor the turn's guess.
+What's going on here? It's not printing everything out. It seems to print out the hexadecimal but no other details about the turn. Not the Card details that are tied to the turn nor the turn's guess.
 
 Hmmmm....how are we able to do this?
 
@@ -140,7 +140,8 @@ It looks like we are going to need something more.
 
 ## A solution in Java
 
-## Part 1
+### Part 1: Creating a new ArrayList
+
 So our first attempt wasn't successful. But when there's a will, there's a way.
 
 I'll be creating a new method called ```getTurnsTaken()```
@@ -165,7 +166,7 @@ First we will create a new ArrayList within the method. We will name it ```forma
 
 {% endhighlight %}
 
-## Part 2
+## Part 2: forEach()
 
 Next, we will be calling the ```forEach``` method and use it on our instance variable ```turnsTaken```
 
@@ -179,6 +180,9 @@ Next, we will be calling the ```forEach``` method and use it on our instance var
 {% endhighlight %}
 
 So what's going on here? We will be iterating through the ```turnsTaken``` ArrayList and we will ```add``` to our newly created ```formattedTurnsTaken``` ArrayList.
+
+
+## Part 3: String.format()
 
 As we iterate through out ```turnsTaken``` ArrayList, we will have access to all instances of Turn, along with the guess and the Turn's card. Let's set this up.
 
@@ -218,7 +222,7 @@ Remember, we're still in the loop and have access to each instance of Turn, the 
 ...
 {% endhighlight %}
 
-So what did we pass into our method? We passed the Turn memory address, the card memory address, and the card's question. But this is only part of what it should return.
+So what did we pass into our method? We passed the Turn hexadecimal, the card hexadecimal, and the card's question. But this is only part of what it should return.
 
 Let's complete it like this
 
@@ -250,7 +254,14 @@ Exception in thread "main" java.lang.Error: Unresolved compilation problem:
 ...
 {% endhighlight %}
 
-What does this mean? Our get
+What does this mean? Our ```getTurnsTaken()``` method must return a String but instead returns the ArrayList ```formattedTurnsTaken```. 
+
+
+## Part 4: toString()
+
+What do we do now? Let's convert the ArrayList to a String. It's a simple fix.
+
+All we need to do is add ```.toString()``` to the end of the ```formattedTurnsTaken``` ArrayList.
 
 
 {% highlight java %}
@@ -265,3 +276,22 @@ What does this mean? Our get
     }
 {% endhighlight %}
 
+This will convert ```formattedTurnsTaken``` to a String and now this method will work correctly.
+
+So now when we print this out
+{% highlight java %}
+System.out.println(round.getTurnsTaken());
+{% endhighlight %}
+
+
+This is what we get.
+
+{% highlight console %}
+
+[Turn@28d93b30 guess=tessa, card=Card@4554617c question=What is the first name of the main character in Silent Hill 3?, answer=heather, category=Video Games]
+
+{% endhighlight %}
+
+We printed the details successfully!
+
+Phew! This seems like a lot for Java. But I think this process has allowed me to really challenge myself as someone relearning Java and also appreciate the convenience that Ruby provides.
