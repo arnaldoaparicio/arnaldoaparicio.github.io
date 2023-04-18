@@ -3,7 +3,7 @@ layout: post
 title:  "Printing an Array in Ruby vs. Java"
 ---
 
-![Array in Ruby and Java](/images/array_ruby_java.png)
+![Array in Ruby and Java](https://i.imgur.com/6B70Qy4.png)
 
 # Overview
 
