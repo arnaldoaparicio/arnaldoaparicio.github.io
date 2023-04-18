@@ -297,4 +297,3 @@ We printed the details successfully!
 ### Closing thoughts
 
 Phew! This seems like a lot for Java. But I think this process has allowed me to really challenge myself as someone relearning Java and also appreciate the convenience that Ruby provides.
-s
