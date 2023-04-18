@@ -288,7 +288,7 @@ This is what we get.
 
 {% highlight console %}
 
-[Turn@28d93b30 guess=tessa, card=Card@4554617c question=What is the first name of the main character in Silent Hill 3?, answer=heather, category=Video Games]
+[Turn@28d93b30 guess=tessa, card=Card@4554617c, question=What is the first name of the main character in Silent Hill 3?, answer=heather, category=Video Games]
 
 {% endhighlight %}
 
