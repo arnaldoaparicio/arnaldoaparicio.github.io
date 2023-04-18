@@ -3,6 +3,8 @@ layout: post
 title:  "Printing an Array in Ruby vs. Java"
 ---
 
+![Array in Ruby and Java](/images/array_ruby_java.png)
+
 # Overview
 
 So recently, I did a redo on an old [Turing Mod 1 project called FlashCards](https://backend.turing.edu/module1/projects/flashcards/) but rather than use Ruby, I built it from scratch using Java.
