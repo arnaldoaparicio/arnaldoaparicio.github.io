@@ -11,6 +11,7 @@ When I'm not programming, I'm engaged in other activities such as:
 
 - Tinkering with Gentoo linux <i style="font-size: 45px" class="devicon-gentoo-plain colored"></i>
 - Yoga
-- Video Games (currently playing Cuphead)
+- Video Games (looking forward to 'Tears of the Kingdom')
+- Gardening (despite having a clear thumb, not green)
 - Taking long walks and soaking in nature
 - Occasionally baking
