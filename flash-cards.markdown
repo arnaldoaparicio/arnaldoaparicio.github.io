@@ -21,6 +21,8 @@ Flash Cards was a solo project in which I built a simulated flash card game wher
 
 - Ruby
 - RSpec
+- Java
+- JUnit 5
 
 ## Links
 
