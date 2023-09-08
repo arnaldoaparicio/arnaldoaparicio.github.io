@@ -5,7 +5,7 @@ layout: home
 ---
 Hi, I'm Arnaldo!
 
-A former head baker turned software engineer trying to figure out his surroundings.
+A former head baker turned software engineer.
 
 When I'm not programming, I'm engaged in other activities such as:
 
