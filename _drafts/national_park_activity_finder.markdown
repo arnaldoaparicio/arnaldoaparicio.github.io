@@ -25,5 +25,5 @@ National Park Activity Finder is a paired project created with Wade, with learni
 - MapQuest’s Place Search API
 
 ## Links
-- [App Repo](https://github.com/WadeNaughton/NP_Activity_Finder)
+- [App Repo](https://github.com/arnaldoaparicio/NP_Activity_Finder)
 - [Deployed App](https://national-park-events-finder.fly.dev/)
