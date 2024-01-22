@@ -1,3 +1,8 @@
+---
+layout: page
+permalink: /portfolio/sweater-weather
+---
+
 # Sweather Weather API
 
 ## Context
