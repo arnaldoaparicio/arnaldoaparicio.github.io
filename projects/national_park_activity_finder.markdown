@@ -1,3 +1,8 @@
+---
+layout: page
+permalink: /portfolio/national_park_activity_finder
+---
+
 # National Park Activity Finder
 
 ## Context
