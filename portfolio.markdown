@@ -18,7 +18,7 @@ Book Club won Turing's Demo Comp, even when competing from a relatively weak pos
 
 ## National Park Activity Finder
 
-[National Park Activity Finder]({% link image-porfolio-wip.markdown %}) is a paired project created with a fellow Turing alumni. It allows users to search for national parks in the United States and search for events in those national parks.
+[National Park Activity Finder]({% link projects/national_park_activity_finder.markdown %}) is a paired project created with a fellow Turing alumni. It allows users to search for national parks in the United States and search for events in those national parks.
 
 ## Untitled Mugen DB
 
