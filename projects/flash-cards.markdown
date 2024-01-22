@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /flash-cards
+permalink: /portfolio/flash-cards
 ---
 
 # Flash Cards
