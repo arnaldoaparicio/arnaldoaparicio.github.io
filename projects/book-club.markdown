@@ -1,3 +1,8 @@
+---
+layout: page
+permalink: /portfolio/book-club
+---
+
 # Book Club
 
 Book club was a mod 3 group project, that won Turing's Demo Comp for our team!
