@@ -17,7 +17,7 @@ National Park Activity Finder is a paired project created with Wade, with learni
 - Implement feature to save to collection
 
 ## Timeline
-2 Weeks
+- 2 Weeks
 
 ## Technologies
 - Ruby
@@ -32,3 +32,6 @@ National Park Activity Finder is a paired project created with Wade, with learni
 ## Links
 - [App Repo](https://github.com/arnaldoaparicio/NP_Activity_Finder)
 - [Deployed App](https://national-park-events-finder.fly.dev/)
+
+## Screenshots
+
