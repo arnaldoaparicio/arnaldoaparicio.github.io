@@ -54,4 +54,5 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 collections:
-  - memoirs
+    memoirs:
+      output: true
