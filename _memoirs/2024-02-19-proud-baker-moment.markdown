@@ -1,5 +1,6 @@
 ---
 layout: post
+title: "Proudest Moment as a Baker"
 permalink: /proudest-baker-moment/
 ---
 
