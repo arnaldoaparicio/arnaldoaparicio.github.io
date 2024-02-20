@@ -4,6 +4,8 @@ title: "Proudest Moment as a Baker"
 permalink: /proudest-baker-moment/
 ---
 
+<img src="https://i.imgur.com/NhqzTWG.png" />
+
 As a baker, you deal with multiple deadlines, whether it’s to make a wedding cake or make 20 dozen donuts for a birthday party for tomorrow. There’s a lot of pressure and feelings of urgency to deal with. However, there was a time where those feelings disappeared despite it being the busiest time of the year, Christmas, which inadvertently became my proudest moment as a baker.
 
 The day before Christmas Eve in 2019 was an incredibly busy day for me. It was the longest workday of the year, as I was working over 12 hours that day. It was the evening and the bakery was closed for the day. Most of the staff had already clocked out with the exception of myself and Century Bakery owners Barb and Wayne Ernst. There was still much more to do to prepare for Christmas as there were still many pies to be baked, inventory to be sorted, sticky buns to be prepped, and orders to be packed. It was a huge task for the three of us to take on ourselves. But we were not alone.
