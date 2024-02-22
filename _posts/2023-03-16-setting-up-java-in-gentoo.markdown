@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Setting up Java on Gentoo Linux"
+permalink: /blog/setting-up-java-in-gentoo/
 ---
 
 # Setup
