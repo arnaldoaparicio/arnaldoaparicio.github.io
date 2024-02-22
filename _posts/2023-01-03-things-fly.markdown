@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Useful fly.io tips"
-permalink: /things-fly/
+permalink: /blog/things-fly/
 ---
 
 <img src="https://i.imgur.com/Dctgbys.png">
