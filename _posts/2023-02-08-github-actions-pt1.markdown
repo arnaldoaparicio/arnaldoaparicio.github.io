@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "GitHub Actions Walkthrough: Part 1"
-permalink: /github-actions-p1/
+permalink: /blog/github-actions-p1/
 ---
 
 ### Introduction
