@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /gentoo-experience/
+permalink: /blog/gentoo-experience/
 
 ---
 
