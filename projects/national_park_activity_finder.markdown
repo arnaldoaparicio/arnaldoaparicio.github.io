@@ -23,6 +23,7 @@ National Park Activity Finder is a paired project created with Wade, with learni
 - Ruby
 - Rails
 - Bootstrap
+- PostgreSQL
 - HTML
 - CSS
 - National Park Service API
