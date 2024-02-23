@@ -5,14 +5,14 @@ permalink: /portfolio/mugen-db
 
 # Untitled MUGEN DB
 
-Untitled Mugen DB was an enjoyable solo project in which I guilt a game engine to support host resources and information for players of a game engine called [MUGEN](https://en.wikipedia.org/wiki/Mugen_(game_engine)).
+Untitled Mugen DB was an enjoyable solo project in which I guilt a game engine to support host resources and information for players of a game engine called [MUGEN](https://en.wikipedia.org/wiki/Mugen_(game_engine)). This is an ongoing project with updates happening frequently.
 
 ## Focus Areas
 
 - Implement Amazon S3
-- upload images to Amazon S3 bucket
-- create user based submissions
-- display uploaded images
+- Upload images to Amazon S3 bucket
+- Create user based submissions
+- Display uploaded images
 
 ## Technologies
 
