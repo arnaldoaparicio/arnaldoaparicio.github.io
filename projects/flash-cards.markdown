@@ -15,7 +15,7 @@ Flash Cards was a solo project in which I built a simulated flash card game wher
 
 ## Timeline: 
 
-1 week
+- 1 week
 
 ## Technologies 
 
