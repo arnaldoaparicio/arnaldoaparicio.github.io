@@ -24,6 +24,7 @@ I built a Rails API-only backend with endpoints exposing data relating to curren
 
 - Ruby
 - Rails
+- PostgreSQL
 - VCR (mocking tool)
 - RSpec
 - MapQuest's Geocoding API
