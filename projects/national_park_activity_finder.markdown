@@ -35,3 +35,8 @@ National Park Activity Finder is a paired project created with Wade, with learni
 
 ## Screenshots
 
+## Home Page as a Guest
+## Search Park by State
+## Park Details
+## Park Details (cont.)
+## Login/Sign Up Page
