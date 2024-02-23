@@ -18,7 +18,7 @@ I built a Rails API-only backend with endpoints exposing data relating to curren
 
 ## Timeline
 
-1 Week
+- 1 Week
 
 ## Technologies
 
