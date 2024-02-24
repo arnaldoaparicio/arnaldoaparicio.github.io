@@ -37,7 +37,17 @@ National Park Activity Finder is a paired project created with Wade, with learni
 ## Screenshots
 
 ## Home Page as a Guest
+<img src="https://i.imgur.com/bFNMigS.jpg" />
+
 ## Search Park by State
+<img src="https://i.imgur.com/GnCS9XJ.jpg" title="source: imgur.com" />
+
 ## Park Details
+<img src="https://i.imgur.com/xGGxhB1.jpg" title="source: imgur.com" />
+
 ## Park Details (cont.)
+<img src="https://i.imgur.com/UyiA9Uj.jpg" />
+
 ## Login/Sign Up Page
+<img src="https://i.imgur.com/T0K5feG.jpg" />
+<img src="https://i.imgur.com/YeLdUq8.jpg" />
