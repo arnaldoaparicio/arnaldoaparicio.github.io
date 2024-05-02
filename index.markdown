@@ -9,7 +9,7 @@ A former head baker turned software engineer.
 
 When I'm not programming, I'm engaged in other activities such as:
 
-- Tinkering with Gentoo linux <i style="font-size: 45px" class="devicon-gentoo-plain colored"></i>
+- Tinkering with EndeavourOS
 - Yoga
 - Video Games (looking forward to 'Tears of the Kingdom')
 - Gardening (despite having a clear thumb, not green)
