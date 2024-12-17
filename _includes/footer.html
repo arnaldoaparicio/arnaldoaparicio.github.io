@@ -1,31 +1,52 @@
+<style>
+  .tighten {
+    line-height: 60%;
+  }
+</style>
+
 <head>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+  />
 </head>
 
 <footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+  <data class="u-url" href="{{ '/' | relative_url }}"></data>
 
   <div class="wrapper">
-
-
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
-
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
+          {%- if site.email -%}
+          <li>
+            <a class="u-email" href="mailto:{{ site.email }}"
+              >{{ site.email }}</a
+            >
+          </li>
+          {%- endif -%}
         </ul>
       </div>
 
-      <div class="footer-col footer-col-3">
+      <div class="footer-col footer-col-3 tighten">
+        <p>
+          Connect with me:
+          <a href="https://www.linkedin.com/in/arnaldo-aparicio/">
+            <i
+              style="font-size: 25px"
+              class="devicon-linkedin-plain colored"
+            ></i
+          ></a>
+          <a href="https://github.com/arnaldoaparicio"
+            ><i
+              style="font-size: 25px"
+              class="devicon-github-original colored"
+            ></i
+          ></a>
+        </p>
         <p>{{- site.description | escape -}}</p>
-        <p>Connect with me: <a href="https://www.linkedin.com/in/arnaldo-aparicio/"><i
-            style="font-size: 25px" class="devicon-linkedin-plain colored"></i></a> <a
-          href="https://github.com/arnaldoaparicio"><i style="font-size: 25px" class="devicon-github-original colored"></i></a>
-        <a href="https://calendly.com/arnaldoaparicio/coffee-chat" target="_blank"><img
-            src="https://logovtor.com/wp-content/uploads/2023/06/calendly-logo-vector.png" width="108" height="60"/></a></p>
       </div>
+      
     </div>
   </div>
 </footer>
